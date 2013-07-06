@@ -115,3 +115,6 @@ if has("gui_running")
 endif
 
 let g:molokai_original = 1
+
+execute pathogen#infect()
+filetype plugin indent on
